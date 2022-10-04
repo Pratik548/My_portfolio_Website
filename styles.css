@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.sidebar {
+
+    background-color: rgb(212, 209, 209);
+    width: 20vw;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+.sidebar nav {
+
+    padding: 33px;
+}
+
+.sidebar nav li {
+
+    list-style-type: none;
+    padding: 23px 0px;
+    font-size: 5.2vh;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    padding: 23px 0px;
+    font-size: 5.2vh;
+}
+
+.main {
+    /* background-color: yellowgreen; */
+    padding: 20px;
+    width: 80vw;
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: magenta; */
+    height: 72vh;
+    width: 60vw;
+    margin: 105px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.devpic img {
+    height: 72vh;
+
+}
+
+.hello {
+    font-size: 29px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.aboutme {
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.buttons button {
+    margin-top: 34px;
+    padding: 8px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgba(13, 92, 210, 0.919);
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactinfo form {
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.contactinfo form div {
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.contactinfo form div .form-label {
+    font-size: 18px;
+
+}
+
+.form-control {
+    padding: 5px;
+    border-radius: 32px;
+    width: 193px;
+
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: blue;
+
+}
+
+.form-check-label {
+    font-size: 11px;
+    color: blue;
+}
+
+.form-check-input {
+    order: 2;
+}
+
+.contactinfo form button {
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgba(13, 92, 210, 0.919);
+    cursor: pointer;
+}
+
+.contactinfo form button:hover {
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.mb-3_form-check {
+    display: flex;
+}
+
+.about {
+    display: flex;
+    width: 80vw;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+}
+
+.about1 {
+    display: flex;
+    width: 80vw;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    /* flex-wrap: wrap; */
+    justify-content: left;
+}
+
+.about2 {
+    display: flex;
+    width: 80vw;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    /* flex-wrap: wrap; */
+    justify-content: left;
+}
+
+.ahtml {
+    /* background-color: yellow; */
+    width: 22vw;
+    height: 33vh;
+    margin: 50px 34px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ahtml img {
+    height: 60px;
+    width: 60px;
+    padding-bottom: 27px;
+    /* align-items:  center;  */
+}
+
+.ahtml ul {
+    order: 2;
+}
+
+.acss {
+    /* background-color:yellow; */
+    width: 22vw;
+    height: 33vh;
+    margin: 50px 34px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.acss img {
+    height: 60px;
+    width: 60px;
+    padding-bottom: 27px;
+    /* align-items:  center;  */
+}
+
+.acss ul {
+    order: 2;
+}
+
+.apython {
+    /* background-color: yellow; */
+    width: 22vw;
+    height: 33vh;
+    margin: 50px 34px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apython img {
+    height: 60px;
+    width: 60px;
+    padding-bottom: 27px;
+    /* align-items:  center;  */
+}
+
+.apython ul {
+    order: 2;
+}
+
+.asql {
+    /* background-color: yellow; */
+    width: 22vw;
+    height: 33vh;
+    margin: 50px 34px 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.asql img {
+    height: 60px;
+    width: 60px;
+    padding-bottom: 27px;
+    /* align-items:  center;  */
+}
+
+.asql ul {
+    order: 2;
+}
+
+.ajs {
+    /* background-color: yellow; */
+    width: 22vw;
+    height: 33vh;
+    margin: 50px 34px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ajs img {
+    height: 60px;
+    width: 60px;
+    padding-bottom: 27px;
+    /* align-items:  center;  */
+}
+
+.ajs ul {
+    order: 2;
+}
+
+.my_projects {
+    /* background-color: yellow; */
+    width: 22vw;
+    height: 33vh;
+    margin: 50px 34px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my_projects img {
+    height: 60px;
+    width: 60px;
+    padding-bottom: 27px;
+    /* align-items:  center;  */
+}
+
+.my_projects ul {
+    order: 2;
+}
+
+
+#My_Resume {
+    height: 89vh;
+    width: 74vw;
+    margin: 2px;
+}
+
+@media (max-width: 857px) {
+    * {
+        /* background-color: red; */
+
+    }
+
+    .sidebar {
+        transform: translate(-180px);
+        position: absolute;
+    }
+
+    .infocontainer {
+        flex-wrap: wrap;
+    }
+    .about1{
+        flex-wrap: wrap;
+    }
+    .about2{
+        flex-wrap: wrap;
+    }
+    /* … */
+}
