@@ -209,14 +209,15 @@
 }
 
 .ahtml img {
-    height: 60px;
-    width: 60px;
+    height: 30vh;
+    width: 10vh;
     padding-bottom: 27px;
     /* align-items:  center;  */
 }
 
 .ahtml ul {
     order: 2;
+    font-size:4vh;
 }
 
 .acss {
