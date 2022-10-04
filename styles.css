@@ -232,14 +232,15 @@
 }
 
 .acss img {
-    height: 60px;
-    width: 60px;
+    height: 30vh;
+    width: 10vh;
     padding-bottom: 27px;
     /* align-items:  center;  */
 }
 
 .acss ul {
     order: 2;
+    font-size:4vh;
 }
 
 .apython {
@@ -253,14 +254,15 @@
 }
 
 .apython img {
-    height: 60px;
-    width: 60px;
+    height: 30vh;
+    width: 10vh;
     padding-bottom: 27px;
     /* align-items:  center;  */
 }
 
 .apython ul {
     order: 2;
+    font-size:4vh;
 }
 
 .asql {
@@ -274,14 +276,15 @@
 }
 
 .asql img {
-    height: 60px;
-    width: 60px;
+    height: 30vh;
+    width: 10vh;
     padding-bottom: 27px;
     /* align-items:  center;  */
 }
 
 .asql ul {
     order: 2;
+    font-size:4vh;
 }
 
 .ajs {
@@ -295,14 +298,15 @@
 }
 
 .ajs img {
-    height: 60px;
-    width: 60px;
+    height: 30vh;
+    width: 10vh;
     padding-bottom: 27px;
     /* align-items:  center;  */
 }
 
 .ajs ul {
     order: 2;
+    font-size:4vh;
 }
 
 .my_projects {
@@ -316,14 +320,15 @@
 }
 
 .my_projects img {
-    height: 60px;
-    width: 60px;
+    height: 30vh;
+    width: 10vh;
     padding-bottom: 27px;
     /* align-items:  center;  */
 }
 
 .my_projects ul {
     order: 2;
+    font-size:4vh;
 }
 
 
