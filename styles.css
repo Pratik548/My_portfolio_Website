@@ -186,7 +186,8 @@
     /* background-color: red; */
     /* border: 2px solid black; */
     /* flex-wrap: wrap; */
-    justify-content: left;
+    justify-content: center;
+    align-items:baseline;
 }
 
 .about2 {
@@ -195,7 +196,8 @@
     /* background-color: red; */
     /* border: 2px solid black; */
     /* flex-wrap: wrap; */
-    justify-content: left;
+    justify-content: center;
+    align-items:stretch;
 }
 
 .ahtml {
@@ -276,9 +278,9 @@
 }
 
 .asql img {
-    height: 30vh;
-    width: 10vh;
-    padding-bottom: 27px;
+    height: 49vh;
+    width: 22vh;
+    padding-bottom: 10px;
     /* align-items:  center;  */
 }
 
@@ -298,8 +300,8 @@
 }
 
 .ajs img {
-    height: 30vh;
-    width: 10vh;
+    height: 15vh;
+    width: 16vh;
     padding-bottom: 27px;
     /* align-items:  center;  */
 }
@@ -321,8 +323,8 @@
 
 .my_projects img {
     height: 30vh;
-    width: 10vh;
-    padding-bottom: 27px;
+    width: 24vh;
+    padding-bottom: 10px;
     /* align-items:  center;  */
 }
 
